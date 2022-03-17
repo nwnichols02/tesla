@@ -233,10 +233,12 @@ class App extends React.Component {
                   </footer>
                 </div>
               </div>
+
             </div>
           );
         }}
       />
+      
     );
   }
 }

@@ -212,7 +212,7 @@ a{
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
-  height: 100vh;
+  height: 90vh;
 }
 
 .accessories-buttons{
@@ -227,6 +227,8 @@ footer {
   justify-content: center;
   align-items: center;
   padding-bottom: 2%;
+  opacity: 1;
+  z-index: 100;
 }
 
 .footer li{
