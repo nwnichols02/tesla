@@ -98,9 +98,9 @@ class App extends React.Component {
                       //fix this to become my own build your own tesla page
                       href="https://www.tesla.com/model3/design#overview"
                     >
-                      <button className="button1">Custom Order</button>
+                      <button className="button1">CUSTOM ORDER</button>
                     </a>
-                    <button className="button2">Existing Inventory</button>
+                    <button className="button2">EXISTING INVENTORY</button>
                   </div>
                 </div>
               </div>
@@ -119,9 +119,9 @@ class App extends React.Component {
                       //fix this to become my own build your own tesla page
                       href="https://www.tesla.com/model3/design#overview"
                     >
-                      <button className="button1">Custom Order</button>
+                      <button className="button1">CUSTOM ORDER</button>
                     </a>
-                    <button className="button2">Existing Inventory</button>
+                    <button className="button2">EXISTING INVENTORY</button>
                   </div>
                 </div>
               </div>
@@ -140,9 +140,9 @@ class App extends React.Component {
                       //fix this to become my own build your own tesla page
                       href="https://www.tesla.com/model3/design#overview"
                     >
-                      <button className="button1">Custom Order</button>
+                      <button className="button1">CUSTOM ORDER</button>
                     </a>
-                    <button className="button2">Existing Inventory</button>
+                    <button className="button2">EXISTING INVENTORY</button>
                   </div>
                 </div>
               </div>
@@ -161,9 +161,9 @@ class App extends React.Component {
                       //fix this to become my own build your own tesla page
                       href="https://www.tesla.com/model3/design#overview"
                     >
-                      <button className="button1">Custom Order</button>
+                      <button className="button1">CUSTOM ORDER</button>
                     </a>
-                    <button className="button2">Existing Inventory</button>
+                    <button className="button2">EXISTING INVENTORY</button>
                   </div>
                 </div>
               </div>
@@ -180,9 +180,9 @@ class App extends React.Component {
                       //fix this to become my own build your own tesla page
                       href="https://www.tesla.com/model3/design#overview"
                     >
-                      <button className="button1">Order Now</button>
+                      <button className="button1">ORDER NOW</button>
                     </a>
-                    <button className="button2">Learn More</button>
+                    <button className="button2">LEARN MORE</button>
                   </div>
                 </div>
               </div>
@@ -199,9 +199,9 @@ class App extends React.Component {
                       //fix this to become my own build your own tesla page
                       href="https://www.tesla.com/model3/design#overview"
                     >
-                      <button className="button1">Order Now</button>
+                      <button className="button1">ORDER NOW</button>
                     </a>
-                    <button className="button2">Learn More</button>
+                    <button className="button2">LEARN MORE</button>
                   </div>
                 </div>
               </div>
@@ -217,7 +217,7 @@ class App extends React.Component {
                       //fix this to become my own build your own tesla page
                       href="https://www.tesla.com/model3/design#overview"
                     >
-                      <button className="button1">Shop Now</button>
+                      <button className="button1">SHOP NOW</button>
                     </a>
                   </div>
                 </div>
