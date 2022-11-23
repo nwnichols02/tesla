@@ -96,7 +96,8 @@ select {
   width: 7%;
   height: 77%;
   cursor: pointer;
-  margin-left: 50px;
+  margin-left: 5rem;
+  transform: scale(1.7);
 }
 
 header{
@@ -111,6 +112,7 @@ header{
 
 .nav__links{
   list-style: none;
+  text-decoration: none;
 }
 
 .nav__links li{
@@ -122,21 +124,20 @@ header{
   font-weight: bold;
   font-size: 1.75rem;
   transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: black;
 }
 
 .nav__links li a:hover{
   /* color: blue */
   padding: 0 5px;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   background-color: #ced3d3;
 }
 
 header a button{
   font-weight: bold;
-  font-size: 1.75rem;
-  /* padding: 9px 25px; */
   border: none;
-  border-radius: 25px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
   /* background-color: rgba(0, 139,169,1); */
@@ -157,13 +158,11 @@ button:hover{
 }
 
 .nav__buttons li a:hover{
-  padding: 0 5px;
-  border-radius: 25px;
-  background-color: #ced3d3;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  font-size: 400%;
+
 }
 
 a{
@@ -174,21 +173,25 @@ a{
 
 .model-3-img {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/e90a341e-f9ca-4aa1-8eab-94afea118786/bvlatuR/std/2880x1800/M3-Homepage-D");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-  object-fit: contain;
   height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
 .title {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 8%;
+  padding-top: 9%;
+  padding-bottom: 33%;
   justify-content: center;
   letter-spacing: 0.1rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .title p {
@@ -199,7 +202,7 @@ a{
 .order-buttons{
   display: flex;
   justify-content: center;
-  padding-top: 57vh;
+  /* padding-top: 57vh; */
   
 }
 
@@ -214,58 +217,70 @@ a{
   align-items: center;
   padding: 10px 80px;
   font-weight: 400;
-  font-size: 1.25rem;
-  border-radius: 25px;
- 
+  font-size: 1.25rem; 
 }
 
 .button2{
   background-color: #f9f4f5;
-  color: black;
+  text-transform: 1.5;
+  /* color: black; */
   border: none;
+  border-radius: 10px;
 }
 
 .button1{
   background-color: #383d3b;
+  border-radius: 10px;
   color: white;
 
 }
 
 .model-y-img {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-  object-fit: contain;
   height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
 .model-s-img {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-  object-fit: contain;
   height: 100vh;
   width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
 .model-x-img {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/325743a2-d187-4e28-91a3-5a2e47e317f7/bvlatuR/std/2880x1800/ModelX-Homepage-D");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-  object-fit: contain;
   height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
 .solar-panels-img {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-  object-fit: contain;
   height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
 .solar-panels-order-buttons{
@@ -277,10 +292,13 @@ a{
 .solar-roof-img {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c877126e-0db5-409d-a412-04fc94b59b76/bvlatuR/std/2880x1800/HP-SR-Design-D");
   height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-  object-fit: contain;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
 .solar-roof-order-buttons{
@@ -291,11 +309,14 @@ a{
 
 .accessories-img {
   background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/dd739764-bcaa-4263-9488-8c73bc9fb046/bvlatuR/std/2880x2400/Desktop-Accessories");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
-  object-fit: contain;
   height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+  padding: 0;
 }
 
 .accessories-buttons{
@@ -321,4 +342,8 @@ footer {
   font-size: 1.5rem;
 }
 
-
+.titleName {
+  font-size: 3rem;
+  font-weight: 600;
+  transform: scale(1.5);
+}
